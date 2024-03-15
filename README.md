@@ -1,11 +1,11 @@
 # Default EVM version for each Solidity Compiler Version
 This document outlines the default EVM (Ethereum Virtual Machine) version associated with each Solidity compiler version.
 
+## Solidity >= 0.8.25 - Cancun
 ## Solidity >= 0.8.20 - Shanghai
 ### Important Note
 With the Shanghai compiler, the default target EVM version includes PUSH0 opcodes. Ensure you select the appropriate EVM version for deployment, especially on non-mainnet chains like L2 chains that may not yet support PUSH0, to avoid deployment failures.
 
-## Solidity >= 0.8.25 - Cancun
 ## Solidity >= 0.8.18 - Paris
 ## Solidity >= 0.8.7 - London
 ## Solidity >= 0.8.5 - Berlin
